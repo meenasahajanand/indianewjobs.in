@@ -18,6 +18,9 @@
         content="Play and download the best free mobile games at FavDojo! Enjoy action, racing, puzzle, cooking games, and more—fun for all ages and interests." />
 
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+
+
+    
 <!-- <script>
   window.googletag = window.googletag || { cmd: [] };
   let interstitialSlot;
@@ -101,6 +104,46 @@
 
         .adsbygoogle[data-ad-status=unfilled] {
             display: none !important
+        }
+
+        /* Ad Container Styles */
+        .ad-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            padding: 10px;
+            background: transparent;
+        }
+
+        .ad-container-inline {
+            display: inline-block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .ad-container-sticky {
+            position: sticky;
+            top: 20px;
+            z-index: 100;
+        }
+
+        /* Responsive Ad Sizes */
+        @media (max-width: 480px) {
+            .ad-container {
+                margin: 15px auto;
+                padding: 5px;
+            }
+            .ad-container .adsbygoogle {
+                max-width: 100% !important;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+            .ad-container {
+                margin: 18px auto;
+            }
         }
 
         .game-list li a,
@@ -538,11 +581,41 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
 </noscript>
  End Meta Pixel Code -->
+
+    <!-- Google AdSense Auto Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781325489132361"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+    <!-- Interstitial Ad Initialization Script -->
+    <script>
+        // Initialize interstitial ads
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        
+        // Function to show interstitial ad (can be called on page transitions)
+        function showInterstitialAd() {
+            // Interstitial ads are automatically managed by Google AdSense
+            // They will show at appropriate times based on user behavior
+        }
+    </script>
+
     <main class="index-content">
+        
+        <!-- Top Display Ad - 468x60 (Banner) -->
+        <div class="ad-container">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781325489132361"
+                crossorigin="anonymous"></script>
+            <!-- 2Inter_2512 - Top Banner -->
+            <ins class="adsbygoogle"
+                style="display:inline-block;width:468px;height:90px"
+                data-ad-client="ca-pub-2781325489132361"
+                data-ad-slot="8401701711"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <section class="icon-group" id="iconGroup">
             <div class="grid-warp">
                 <div class="game-list-warp">
@@ -3158,6 +3231,22 @@ src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
                                     <div class="game-item-shadow"></div>
                                 </div>
                             </a>
+                        </li>
+                        
+                        <!-- Middle Display Ad - 300x600 (Skyscraper) -->
+                        <li style="grid-column: span 2; grid-row: span 3; display: flex; align-items: center; justify-content: center;">
+                            <div class="ad-container" style="width: 100%; height: 100%;">
+                                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781325489132361"
+                                    crossorigin="anonymous"></script>
+                                <!-- 1display_2512 - Middle Skyscraper -->
+                                <ins class="adsbygoogle"
+                                    style="display:inline-block;width:300px;height:600px"
+                                    data-ad-client="ca-pub-2781325489132361"
+                                    data-ad-slot="2151331593"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
                         </li>
                         <li>
                             <a class="game-link" href="explore/game/tap-it-away-block-taptile3d-tile-master.html"
@@ -6472,6 +6561,51 @@ src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
                 </div>
             </div>
         </section>
+        
+        <!-- Bottom Display Ads - Before Footer -->
+        <div class="ad-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px auto;">
+            <!-- Display Ad 1 - 320x480 -->
+            <div class="ad-container-inline">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781325489132361"
+                    crossorigin="anonymous"></script>
+                <!-- 2display_2512 - Bottom Display 1 -->
+                <ins class="adsbygoogle"
+                    style="display:inline-block;width:320px;height:480px"
+                    data-ad-client="ca-pub-2781325489132361"
+                    data-ad-slot="1947974003"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            
+            <!-- Display Ad 2 - 480x320 -->
+            <div class="ad-container-inline">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781325489132361"
+                    crossorigin="anonymous"></script>
+                <!-- 3inter_2512 - Bottom Display 2 -->
+                <ins class="adsbygoogle"
+                    style="display:inline-block;width:480px;height:320px"
+                    data-ad-client="ca-pub-2781325489132361"
+                    data-ad-slot="4574137346"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            
+            <!-- Interstitial Ad - 320x480 (Hidden, triggered programmatically) -->
+            <div style="display: none;">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2781325489132361"
+                    crossorigin="anonymous"></script>
+                <!-- inter_2512 - Interstitial -->
+                <ins class="adsbygoogle"
+                    style="display:inline-block;width:320px;height:480px"
+                    data-ad-client="ca-pub-2781325489132361"
+                    data-ad-slot="9826464027"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="line"></div>
